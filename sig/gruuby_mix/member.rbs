@@ -1,9 +1,13 @@
-class GruubyMix::Member
-  public
+# TypeProf 0.12.0
 
-  def total: (?rate: untyped) -> untyped
+# Classes
+module GruubyMix
+  class Member
+    @heart: Integer
+    @technique: Integer
+    @physical: Integer
 
-  private
-
-  def initialize: (untyped heart, untyped technique, untyped physical) -> untyped
+    def initialize: (Integer heart, Integer technique, Integer physical) -> void
+    def total: (?rate: Integer) -> Integer
+  end
 end
