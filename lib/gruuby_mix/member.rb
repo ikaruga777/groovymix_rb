@@ -7,7 +7,7 @@ module GruubyMix
     end
 
     def total(rate: 100)
-      [@heart, @technique, @physical].map { |power| (power * rate / 100).to_i }
+      [@heart, @technique, @physical].map { |power| (power * rate / 100).to_i }.sum
     end
   end
 end
