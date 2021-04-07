@@ -14,4 +14,5 @@ gem "rubocop", "~> 0.80"
 group :development do
   gem "pry-byebug"
   gem "rbs"
+  gem "steep"
 end
