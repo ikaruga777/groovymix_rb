@@ -1,0 +1,9 @@
+class GruubyMix::Member
+  public
+
+  def total: (?rate: untyped) -> untyped
+
+  private
+
+  def initialize: (untyped heart, untyped technique, untyped physical) -> untyped
+end
