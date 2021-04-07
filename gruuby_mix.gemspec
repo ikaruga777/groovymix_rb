@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Score Calculater of D4DJ Groovy Mix."
   spec.homepage      = "https://github.com/ikaruga777/gruuby_mix"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["allowed_push_host"] = "http://mygemserver.com"
 

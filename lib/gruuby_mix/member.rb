@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module GruubyMix
   class Member
     def initialize(heart, technique, physical)
