@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module GruubyMix
   class SubUnit
     UNIT_RATE = 25

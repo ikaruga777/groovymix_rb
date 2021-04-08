@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module GruubyMix
   class MainUnit
     def initialize(members: [])
