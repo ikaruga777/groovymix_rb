@@ -1,0 +1,12 @@
+# TypeProf 0.12.0
+
+# Classes
+module GruubyMix
+  class Unit
+    @main_unit: ::GruubyMix::MainUnit
+    @sub_unit: untyped
+
+    def initialize: (main_unit: ::GruubyMix::MainUnit, sub_unit: untyped) -> void
+    def total: -> Integer
+  end
+end
