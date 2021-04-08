@@ -1,0 +1,12 @@
+# TypeProf 0.12.0
+
+# Classes
+module GruubyMix
+  class SubUnit
+    UNIT_RATE: Integer
+    @members: Array[::GruubyMix::Member]
+
+    def initialize: (?members: Array[::GruubyMix::Member]) -> void
+    def total: -> Integer
+  end
+end
