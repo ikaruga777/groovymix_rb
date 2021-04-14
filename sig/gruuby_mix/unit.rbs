@@ -4,7 +4,7 @@
 module GruubyMix
   class Unit
     @main_unit: ::GruubyMix::MainUnit
-    @sub_unit: untyped
+    @sub_unit: ::GruubyMix::SubUnit
 
     def initialize: (main_unit: ::GruubyMix::MainUnit, sub_unit: ::GruubyMix::SubUnit) -> void
     def total: -> Integer

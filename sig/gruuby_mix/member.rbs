@@ -3,11 +3,13 @@
 # Classes
 module GruubyMix
   class Member
+    @charactor: Symbol
     @heart: Integer
     @technique: Integer
     @physical: Integer
+    @style: ::GruubyMix::Style
 
-    def initialize: (Integer heart, Integer technique, Integer physical) -> void
+    def initialize: (Symbol charactor, Integer heart, Integer technique, Integer physical, ::GruubyMix::Style style) -> void
     def total: (?rate: Integer) -> Integer
   end
 end
