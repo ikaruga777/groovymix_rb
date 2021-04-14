@@ -2,10 +2,12 @@
 
 module GruubyMix
   class Member
-    def initialize(heart, technique, physical)
+    def initialize(charactor, heart, technique, physical, type)
+      @charactor = charactor
       @heart = heart
       @technique = technique
       @physical = physical
+      @type = type
     end
 
     def total(rate: 100)
