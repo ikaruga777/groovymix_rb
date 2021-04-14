@@ -1,0 +1,12 @@
+# TypeProf 0.12.0
+
+# Classes
+module GruubyMix
+  class Style
+    STREET: Integer
+    PARTY: Integer
+    CUTE: Integer
+    COOL: Integer
+    ELEGANT: Integer
+  end
+end
